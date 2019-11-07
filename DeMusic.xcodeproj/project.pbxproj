@@ -84,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		572C1EB92374DD980014305E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				574ABC0A23738420005C8FD7 /* Main.storyboard */,
+				574ABC0823738420005C8FD7 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		574ABBFA23738420005C8FD7 = {
 			isa = PBXGroup;
 			children = (
@@ -107,14 +116,13 @@
 		574ABC0523738420005C8FD7 /* DeMusic */ = {
 			isa = PBXGroup;
 			children = (
+				572C1EB92374DD980014305E /* ViewControllers */,
 				574ABC432373C87C005C8FD7 /* Providers */,
 				574ABC422373C86A005C8FD7 /* Constants */,
 				574ABC412373C853005C8FD7 /* ItemMusicModels */,
 				574ABC402373C825005C8FD7 /* Models */,
 				574ABC3F2373C808005C8FD7 /* New Group */,
 				574ABC0623738420005C8FD7 /* AppDelegate.swift */,
-				574ABC0823738420005C8FD7 /* ViewController.swift */,
-				574ABC0A23738420005C8FD7 /* Main.storyboard */,
 				574ABC1023738427005C8FD7 /* Assets.xcassets */,
 				574ABC1223738427005C8FD7 /* LaunchScreen.storyboard */,
 				574ABC1523738427005C8FD7 /* Info.plist */,
