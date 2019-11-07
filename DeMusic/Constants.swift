@@ -7,3 +7,6 @@
 //
 
 import Foundation
+struct EndPointMusic {
+    static let strUrl = "https://itunes.apple.com/search?term=in+utero&mediaType=music&limit=20"
+}
