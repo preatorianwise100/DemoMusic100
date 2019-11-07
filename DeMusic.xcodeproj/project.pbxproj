@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		572C1EBC2374DEC00014305E /* TableViewCellMusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572C1EBB2374DEC00014305E /* TableViewCellMusicTableViewCell.swift */; };
 		574ABC0723738420005C8FD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574ABC0623738420005C8FD7 /* AppDelegate.swift */; };
 		574ABC0923738420005C8FD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574ABC0823738420005C8FD7 /* ViewController.swift */; };
 		574ABC0C23738420005C8FD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574ABC0A23738420005C8FD7 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		572C1EBB2374DEC00014305E /* TableViewCellMusicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellMusicTableViewCell.swift; sourceTree = "<group>"; };
 		574ABC0323738420005C8FD7 /* DeMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		574ABC0623738420005C8FD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		574ABC0823738420005C8FD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,10 +89,19 @@
 		572C1EB92374DD980014305E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				572C1EBA2374DE730014305E /* ViewCells */,
 				574ABC0A23738420005C8FD7 /* Main.storyboard */,
 				574ABC0823738420005C8FD7 /* ViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		572C1EBA2374DE730014305E /* ViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				572C1EBB2374DEC00014305E /* TableViewCellMusicTableViewCell.swift */,
+			);
+			path = ViewCells;
 			sourceTree = "<group>";
 		};
 		574ABBFA23738420005C8FD7 = {
@@ -326,6 +337,7 @@
 				574ABC0723738420005C8FD7 /* AppDelegate.swift in Sources */,
 				574ABC3E2373C494005C8FD7 /* ItemMusicProvider.swift in Sources */,
 				574ABC3C2373C46C005C8FD7 /* Constants.swift in Sources */,
+				572C1EBC2374DEC00014305E /* TableViewCellMusicTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
