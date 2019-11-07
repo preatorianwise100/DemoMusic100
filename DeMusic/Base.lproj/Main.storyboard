@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3mR-SY-Cqe">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bqz-IV-AAl">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,39 +10,55 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Item 2-->
+        <scene sceneID="1IX-cY-fLG">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DeMusic" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="6VV-O1-Q48" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kH9-3v-iTK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="qKt-RJ-ako"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ER3-K5-lFf"/>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="4fD-IK-lMS"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nF7-Uj-k12" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="860" y="133.5832083958021"/>
+            <point key="canvasLocation" x="1881" y="721"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="cLl-5C-NNJ">
+        <!--Item 1-->
+        <scene sceneID="fDj-JB-wEA">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3mR-SY-Cqe" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="K73-ol-1ir">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="SHE-6Z-Fo3"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="C0r-Y0-8tT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="LMP-HI-vpA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WV0-Cy-jYs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="iBn-sh-2LK"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="4i9-W7-ASL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f2f-Ve-7q7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="181.59999999999999" y="792.95352323838085"/>
+            <point key="canvasLocation" x="1881" y="56"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="J9U-LI-QfC">
+            <objects>
+                <tabBarController id="bqz-IV-AAl" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9JK-nL-xR4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="LMP-HI-vpA" kind="relationship" relationship="viewControllers" id="bdB-sw-8U5"/>
+                        <segue destination="6VV-O1-Q48" kind="relationship" relationship="viewControllers" id="TGN-oC-lfn"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fRE-Ee-5gv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="929" y="388"/>
         </scene>
     </scenes>
 </document>
