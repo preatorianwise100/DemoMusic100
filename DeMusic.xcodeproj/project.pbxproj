@@ -16,6 +16,9 @@
 		574ABC1F23738427005C8FD7 /* DeMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574ABC1E23738427005C8FD7 /* DeMusicTests.swift */; };
 		574ABC2A23738427005C8FD7 /* DeMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574ABC2923738427005C8FD7 /* DeMusicUITests.swift */; };
 		574ABC382373867A005C8FD7 /* ItemMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574ABC372373867A005C8FD7 /* ItemMusic.swift */; };
+		574ABC3A2373A837005C8FD7 /* ItemMusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574ABC392373A837005C8FD7 /* ItemMusicModel.swift */; };
+		574ABC3C2373C46C005C8FD7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574ABC3B2373C46C005C8FD7 /* Constants.swift */; };
+		574ABC3E2373C494005C8FD7 /* ItemMusicProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574ABC3D2373C494005C8FD7 /* ItemMusicProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		574ABC2923738427005C8FD7 /* DeMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeMusicUITests.swift; sourceTree = "<group>"; };
 		574ABC2B23738427005C8FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		574ABC372373867A005C8FD7 /* ItemMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemMusic.swift; sourceTree = "<group>"; };
+		574ABC392373A837005C8FD7 /* ItemMusicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemMusicModel.swift; sourceTree = "<group>"; };
+		574ABC3B2373C46C005C8FD7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		574ABC3D2373C494005C8FD7 /* ItemMusicProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemMusicProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 				574ABC1523738427005C8FD7 /* Info.plist */,
 				574ABC0D23738420005C8FD7 /* DeMusic.xcdatamodeld */,
 				574ABC372373867A005C8FD7 /* ItemMusic.swift */,
+				574ABC392373A837005C8FD7 /* ItemMusicModel.swift */,
+				574ABC3B2373C46C005C8FD7 /* Constants.swift */,
+				574ABC3D2373C494005C8FD7 /* ItemMusicProvider.swift */,
 			);
 			path = DeMusic;
 			sourceTree = "<group>";
@@ -264,8 +273,11 @@
 			files = (
 				574ABC0923738420005C8FD7 /* ViewController.swift in Sources */,
 				574ABC0F23738420005C8FD7 /* DeMusic.xcdatamodeld in Sources */,
+				574ABC3A2373A837005C8FD7 /* ItemMusicModel.swift in Sources */,
 				574ABC382373867A005C8FD7 /* ItemMusic.swift in Sources */,
 				574ABC0723738420005C8FD7 /* AppDelegate.swift in Sources */,
+				574ABC3E2373C494005C8FD7 /* ItemMusicProvider.swift in Sources */,
+				574ABC3C2373C46C005C8FD7 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
