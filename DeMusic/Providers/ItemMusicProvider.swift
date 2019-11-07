@@ -18,12 +18,14 @@ class ItemMusicProvider{
             
             URLSession.shared.dataTask(with: unwrappedUrl, completionHandler: { (data, response, error) in
                 
+                print(data)
+                
                 if data != nil{
                     let jsonDecoder = JSONDecoder()
-                    let userArray = try? jsonDecoder.decode([ItemMusic].self, from: data!)
+                    let itemsArray = try? jsonDecoder.decode([ItemMusic].self, from: data!)
                     
-                    if userArray != nil{
-                        completionBlock(userArray!)
+                    if itemsArray != nil{
+                        completionBlock(itemsArray!)
                         
                     }else{
                         let aArray = [ItemMusic]()
